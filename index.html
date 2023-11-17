@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Siddhesh Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section{
+            float: left;
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        aside{
+            float: left;
+            width: 30%;
+            background: green;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h2 {
+            color: #333;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+
+
+        .info span {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .education,
+        .experience {
+            margin-bottom: 20px;
+        }
+
+
+        .education h3,
+        .experience h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+
+        .highlight{
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        audio,
+        video {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <h1>Siddhesh Mahadik</h1>
+        <p>Web Developer</p>
+        <!-- Personal Photo -->
+        <img src="./profile.jpg" alt="Siddhesh - Photo" style="width: 100%; max-width: 300px; margin-top: 20px;">
+    </header>
+    <div class="container">
+        <section>
+            <h2>Personal Information</h2>
+            <div class="info">
+                <span>Email: <span class="highlight">siddhesh.mahadik.201038@gmail.com</span></span>
+                <span>Phone: (+91)8422053517</span>
+                <span>Address: Mumbai City, Maharashtra, 400014</span>
+            </div>
+
+
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Degree in Biotechnology Engineering</h3>
+                <p>Thadomal Shahani Engineering Collegee,2018</p>
+            </div>
+
+
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Job Title</h3>
+                <p>ITAkaash Strategic Software Pvt.Ltd,12/09/2020  - 17/04/2021</p>
+                <ul>
+                    <li>Team Leader</li>
+                    <li>To coordinate with clients</li>
+                </ul>
+            </div>
+        </section>
+        <aside>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Web Design</li>
+            </ul>
+
+
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1 - WEB designed for main page of Amazon</li>
+                <li>Project 2 - Java Coding for GTA 6 game</li>
+            </ul>
+
+
+            <form action="#" method="post">
+                <label for="resumeFile">Upload Resume:</label>
+                <input type="file" id="resumeFile" name="resumeFile" accept=".pdf, .doc, .docx">
+                <input type="submit" value="Upload">
+            </form>
+        </aside>
+    </div>
+    <section>
+        <h2>Audio Presentation</h2>
+        <audio controls>
+            <source src="your_audio_file.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+
+
+        <h2>Video Presentation</h2>
+        <video controls>
+            <source src="your_video_file.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>        
+    </section>
+</body>
+
+
+</html>
+
+
+
